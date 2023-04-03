@@ -59,5 +59,8 @@ $(function(){
     if(e.target.innerText === '音乐') {
       $(window).attr('location',url + '/public/Webpage/PEAggregateMusic/index.html')
     }
+    if(e.target.innerText === 'olmMamChatGpt') {
+      $(window).attr('location',url + '/public/Webpage/PEolmMamChatGpt/index.html')
+    }
   })
 })

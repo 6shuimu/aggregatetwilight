@@ -34,5 +34,8 @@ $(function(){
     if(data.target.innerText === '音乐') {
       $(window).attr('location',url + '/public/Webpage/PCAggregateMusic/index.html')
     }
+    if(data.target.innerText === 'olmMamChatGpt') {
+      $(window).attr('location',url + '/public/Webpage/PColmMamChatGpt/index.html')
+    }
   })
 })
